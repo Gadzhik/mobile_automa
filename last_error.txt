@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\ai_dev\mobile_automa\test_login.py", line 49, in main
+    login_page.login(email, password)
+  File "D:\ai_dev\mobile_automa\pages\login_page.py", line 128, in login
+    self.enter_email_step(email)
+  File "D:\ai_dev\mobile_automa\pages\login_page.py", line 82, in enter_email_step
+    self.type_text_via_adb(email)
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginPage' object has no attribute 'type_text_via_adb'
